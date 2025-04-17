@@ -35,3 +35,6 @@ Download the ZIP or use Git:
 
 ```bash
 git clone https://github.com/sabercodes/gmail-profile-image-resizer.git
+
+Then go to the project folder:
+cd gmail-profile-image-resizer
