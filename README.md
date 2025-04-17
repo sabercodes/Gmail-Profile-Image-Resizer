@@ -21,3 +21,8 @@ A simple script using `face_recognition` and `Pillow` to crop faces from images 
 ```bash
 git clone https://github.com/sabercodes/gmail-profile-image-resizer.git
 cd gmail-profile-image-resizer
+
+2. (Optional) Create and Activate Virtual Environment
+python -m venv faceenv
+faceenv\Scripts\activate
+
