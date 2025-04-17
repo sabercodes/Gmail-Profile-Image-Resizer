@@ -1,38 +1,37 @@
-# Gmail Profile Image Resizer
+# 📸 Gmail Profile Image Resizer
 
-This project is a simple Python script that takes images, finds the face, and crops the image so that it includes the **full head (with hair)** — not just a close-up of the face. It's useful for preparing profile pictures, like for Gmail.
-
----
-
-## 📂 What This Script Does
-
-- Finds the face in each photo.
-- Adds space around the face to include the full head.
-- Resizes the photo to 300x300 pixels.
-- Saves the new photo in a folder.
+This project is a simple Python script that takes images, detects the face, and crops them with extra space to include the full head (not just a close-up of the face). The images are then resized to 300x300 pixels — perfect for Gmail or other profile pictures.
 
 ---
 
-## 🛠️ What You Need
+## ✅ What This Script Does
 
-### Tools:
+- Finds the face in each image.
+- Adds extra margin around the face (so the full head and hair show).
+- Resizes the image to 300x300 pixels.
+- Saves the processed images in a separate folder.
+
+---
+
+## 🧰 Requirements
+
+Make sure you have these installed:
 
 - Python 3.9
-- Libraries:
+- Required Python packages:
   - `face_recognition`
   - `dlib`
-  - `Pillow` (for image editing)
+  - `Pillow`
+
+> ⚠️ Installing `dlib` might be tricky. You’ll find help in the error message or can ask for support.
 
 ---
 
-## ▶️ How to Use
+## 📝 How to Use
 
-### Step 1: Download the Project
+### 📥 Step 1: Download or Clone the Project
 
-If you're using GitHub, click the green “Code” button and choose **Download ZIP**  
-Then extract the folder.
-
-Or if you know Git, run:
+Download the ZIP or use Git:
 
 ```bash
 git clone https://github.com/sabercodes/gmail-profile-image-resizer.git
