@@ -26,3 +26,8 @@ cd gmail-profile-image-resizer
 python -m venv faceenv
 faceenv\Scripts\activate
 
+3. Install Required Packages
+pip install face_recognition Pillow
+
+If you have issues with dlib, download the wheel from Gohlke's site and install manually.
+
